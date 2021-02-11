@@ -4,13 +4,14 @@ using namespace std;
 
 #include <iostream>
 using namespace std;
-int paralel();  
+void paralel();  
+
 int main() 
 {
-  int pamats, augstums;
-  cin >>  pamats >> augstums;    
-  cout << pamats * augstums;     
-  return 0;
+  int pamats, augstums, S;
+  cin >>  pamats >> augstums; 
+  S = pamats * augstums;    
+  cout << S;     
 }
 
 int main() {
