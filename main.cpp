@@ -2,6 +2,16 @@
 using namespace std;
 // PROJECTS_1
 
+#include <iostream>
+using namespace std;
+int paralel();  
+int main() 
+{
+  int pamats, augstums;
+  cin >>  pamats >> augstums;    
+  cout << pamats * augstums;     
+  return 0;
+}
 
 int main() {
   cout << "Programma pieprasa figūras elementus un aprēķina to laukumu. \n";
