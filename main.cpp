@@ -2,16 +2,14 @@
 using namespace std;
 // PROJECTS_1
 
-#include <iostream>
-using namespace std;
-void paralel();  
-
+void paralelograms();  
 int main() 
 {
   int pamats, augstums, S;
+  cout << "Ievadiet paralelograma pamatu un augstumu";
   cin >>  pamats >> augstums; 
   S = pamats * augstums;    
-  cout << S;     
+  cout << "Paralelograma laukums ir" << S;    
 }
 
 int main() {
